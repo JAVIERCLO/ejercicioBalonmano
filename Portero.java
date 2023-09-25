@@ -13,4 +13,19 @@ public class Portero extends Jugador {
     }
 
     
+
+    public void setParadas(int paradas) {
+        this.paradas = paradas;
+    }
+    public int getParadas() {
+        return paradas;
+    }
+    public void setGoles_recibidos(int goles_recibidos) {
+        this.goles_recibidos = goles_recibidos;
+    }
+    public int getGoles_recibidos() {
+        return goles_recibidos;
+    }
+
+    
 }
